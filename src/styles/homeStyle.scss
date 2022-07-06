@@ -1,0 +1,148 @@
+.home-header-new {
+  width: 169px;
+  height: 33px;
+  background: linear-gradient(180deg, #B8284E 0%, #A01F42 100%);
+  border-radius: 6px;
+  float: right;
+  margin-right: 10px;
+}
+
+.home-header-cart-img {
+  width: 230px;
+  height: 33px;
+}
+
+.home-header-new img {
+  margin-top: 9px;
+  margin-left: 12px;
+}
+
+.home-main {
+ 
+  width: 256px;
+  height: 946px;
+  background: #fff;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.05);
+  
+}
+.home-main-navigation-browse{
+  height: 200px;
+  margin-top: 20px;
+}
+.home-navigation {
+  width: 231px;
+  height: 35px;
+ 
+  border-radius: 6px;
+  display: flex;
+  margin-left: 13px;
+  margin-top: 7px;
+
+  font-family: 'Graphik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 13px;
+  /* identical to box height, or 100% */
+  
+  
+  /* Gray - 13 */
+  
+  color: #41464D;
+
+}
+
+
+.home-navigation :hover {
+
+ background-color: #909CA4;
+}
+
+.home-navigation-img {
+  width: 18px;
+  height: 18px;
+  margin-top: 7px;
+  margin-left: 13px;
+
+}
+
+
+.home-navigation-span {
+  width: 38px;
+  height: 13px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.home-main-p{
+ margin-left: 26px;
+font-family: 'Graphik';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 14px;
+text-transform: uppercase;
+color: #909CA4;
+}
+
+.navigation-footer{
+  width: 214px;
+  height: 67px;
+  background: linear-gradient(92.21deg, #EFF0F1 1.85%, rgba(239, 241, 243, 0.35) 99.07%);;
+  margin-top: 200px;
+  margin-left: 21px;
+  display: flex;
+}
+.navigation-footer-p{
+  width: 159px;
+  height: 14px;
+  font-family: 'Graphik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  color: #6C747F;
+ margin-left: 13px;
+ margin-top: 14px;
+}
+.navigation-footer-h2{
+  font-family: "Graphik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 13px;
+  color: #17191B;
+  margin-top: 47px;
+  margin-left: -161px;
+}  
+.home-portrait{
+  width: 214px;
+  height: 67px;
+  margin-top: 14px;
+  margin-left: 21px;
+}
+.home-portrait-photo{
+  position: absolute;
+  margin-top: 10px;
+  margin-left: -2px;
+}
+.home-portrait-name{
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 45px;
+  font-size: 13px;
+  color: #B8284E;
+}
+.home-portrait-old{
+  position: absolute;
+  margin-top: 16px;
+  margin-left: 45px;
+  font-size: 12px;
+  color: #b0b8c3;
+}
+.home-portrait-move{
+  margin-top: 2px;
+  margin-left: 188px;
+}
+
+
+
