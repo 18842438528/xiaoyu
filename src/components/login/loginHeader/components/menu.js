@@ -1,5 +1,5 @@
-import MenuImg from '../../../assets/Group 1823.png'
-import LogoImg from '../../../assets/Logo.png'
+import MenuImg from '../../../../assets/Group 1823.png'
+import LogoImg from '../../../../assets/Logo.png'
 export const Menu = () => {
   return (
     <div className='login-header-img'>

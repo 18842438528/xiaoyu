@@ -2,6 +2,15 @@
   width: 100%;
 }
 
+.login-index {
+  z-index: 100;
+  background-color: #e4ebf1;
+
+}
+.main-input{
+  width: 350px;
+}
+
 .login-header-gross {
   width: 100%;
   height: 55px;
@@ -31,7 +40,7 @@
   width: 100px;
   display: flex;
   margin-left: 90px;
-  margin-top: -20px;
+  margin-top: -23px;
   color: #16181C;
   font-weight: 800;
 }
@@ -58,9 +67,13 @@ input:focus {
 }
 
 .login-header-cart {
-  width: 33px;
+  width: 230px;
   height: 33px;
-  margin-right: 13px;
+}
+
+.login-header-cart-img {
+  width: 33px;
+  margin-left: 150px;
 }
 
 .login-main {
@@ -74,7 +87,8 @@ input:focus {
   height: 471px;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.07);
   border-radius: 6px;
-  margin-top: 206px;
+  margin-top: 150px;
+  background-color: #fff;
 }
 
 .login-main-title {
@@ -101,25 +115,183 @@ input:focus {
 }
 
 .login-header-btn-login {
-  width: 350px;
-  height: 40px;
+  width: 362px;
+  height: 46px;
   background: linear-gradient(180deg, #B8284E 0%, #A01F42 100%);
   border-radius: 5px;
   color: #E0E4E8;
   font-size: 16px;
-  font-weight: 800
+  font-weight: 800;
+  // margin-left: -9px;
+  
 }
-input{
+button{
+  border: none;
+}
+
+.login-header-forgot {
+  position: relative;
+  top: 33px;
+  margin-left: 244px;
+
+  color: #41464D;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: 'Graphik';
+  font-style: normal;
+}
+
+input {
   padding-left: 10px;
 }
 
-.login-main-continue{
-  width: 312px;
+.login-main-continue {
+  width: 350px;
   height: 75px;
-  background-color: #C3C9D2;
-   margin-left: 42px;
-   margin-top: 30px;
-
- 
+  margin-left: 27px;
+  margin-top: 30px;
 
 }
+
+.login-main-continue img {
+  width: 40px;
+  height: 40px;
+  line-height: 16px;
+  text-align: center;
+  margin-right: 25px;
+  //  margin-top: 20px;
+}
+
+.login-main-continue-p {
+  width: 312px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  margin-left: 25px;
+  margin-bottom: -12px;
+}
+
+.login-footer {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: -40px;
+
+}
+
+.login-footer-first {
+  margin-top: 30px;
+  font-family: 'Graphik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  color: #565D66;
+
+}
+
+.login-footer-second {
+  margin-top: 170px;
+}
+
+.login-footer-span {
+  position: relative;
+  width: 100px;
+  height: 24px;
+  left: 10px;
+  font-family: 'Graphik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  color: #00a8b2;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+
+.password-main-box {
+  width: 425px;
+  height: 388px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // justify-content: center;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.07);
+  border-radius: 6px;
+  margin-top: 150px;
+  background-color: #fff;
+}
+
+.password-header-back {
+  width: 400px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  // align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  border-bottom: 1px solid #EFF1F3;
+  margin-top: 20px;
+}
+
+.password-header-back-img {
+  width: 14px;
+  height: 13px;
+  margin-left: 10px;
+  float: left;
+}
+
+.password-header-back-span {
+  position: relative;
+  width: 100px;
+  float: left;
+  top: -14px;
+  left: 30px;
+}
+
+.password-main-p {
+  width: 350px;
+  height: 100px;
+
+}
+
+.password-main-p p {
+  font-family: 'Graphik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  color: #6C747F;
+}
+.password-email{
+  margin-top: 20px;
+}
+.password-main-btn{
+  margin-left: -9px;
+}
+
+.login-footer-text{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  // margin-top: -10px;
+
+}
+
