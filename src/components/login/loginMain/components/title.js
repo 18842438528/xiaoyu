@@ -1,8 +1,8 @@
-export const Title=()=>{
-  return(
+export const Title = () => {
+  return (
     <div className="login-main-title">
       <h1>
-      Hello again!
+        Hello again!
       </h1>
     </div>
   )

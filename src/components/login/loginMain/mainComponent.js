@@ -4,15 +4,15 @@ import { MainEmail } from './components/mainEmail'
 import { MainBtn } from './components/mainBtn'
 import { MainContinue } from './components/mainContinue'
 
-export const MainComponent=()=>{
-  return(
+export const MainComponent = () => {
+  return (
     <div className="login-main">
-        <div className='login-main-box'>
-            <Title/>
-            <MainEmail/>
-            <MainBtn name="Login"/>
-            <MainContinue/>
-        </div>
+      <div className='login-main-box'>
+        <Title />
+        <MainEmail />
+        <MainBtn name="Login" />
+        <MainContinue />
+      </div>
     </div>
   )
 }

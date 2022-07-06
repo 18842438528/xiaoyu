@@ -6,13 +6,10 @@ export const LoginIndex = () => {
   return (
     <div className="index">
       <HeaderComponent />
-        <div className='login-index'>
-            <MainComponent />
+      <div className='login-index'>
+        <MainComponent />
         <FooterComponent />
-        </div>
-      
-     
-
+      </div>
     </div>
   )
 }

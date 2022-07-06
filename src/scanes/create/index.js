@@ -3,18 +3,14 @@ import { HeaderComponent } from '../../components/login/loginHeader/headerCompon
 import { CreateMainComponent } from '../../components/create/createMain/createMainComponent'
 import { CreateFooterComponent } from '../../components/create/createFooter/createFooterComponent'
 
-export const CreateIndex=()=>{
-  return(
+export const CreateIndex = () => {
+  return (
     <div>
-      <HeaderComponent/>
+      <HeaderComponent />
       <div className='login-index'>
-        <CreateMainComponent/>
-         <CreateFooterComponent/>
-
-
-      
+        <CreateMainComponent />
+        <CreateFooterComponent />
       </div>
-      
     </div>
   )
 }

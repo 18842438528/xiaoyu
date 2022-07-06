@@ -10,7 +10,6 @@ export const PasswordIndex = () => {
                 <PasswordComponent />
                 <FooterTextComponent />
             </div>
-
         </div>
     )
 }

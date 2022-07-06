@@ -2,15 +2,14 @@ import { HeaderComponent } from "../../components/login/loginHeader/headerCompon
 import { CheckInboxMain } from "../../components/checkInbox/checkInboxMain/mainComponent"
 import { CheckFooterComponent } from "../../components/checkInbox/checkInboxFooter/checkFooterComponent"
 import '../../styles/style.scss'
-export const CheckInboxIndex =()=>{
-  return(
+export const CheckInboxIndex = () => {
+  return (
     <div>
-      <HeaderComponent/>
+      <HeaderComponent />
       <div className="login-index">
-      <CheckInboxMain/>
-      <CheckFooterComponent/>
+        <CheckInboxMain />
+        <CheckFooterComponent />
       </div>
-      
     </div>
   )
 }

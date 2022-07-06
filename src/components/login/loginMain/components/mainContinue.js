@@ -1,18 +1,15 @@
 import { MainIamge } from "./mainImage"
-export const MainContinue=()=>{
-  return(
+export const MainContinue = () => {
+  return (
     <div className="login-main-continue">
       <div >
-      <p className="login-main-continue-p">
-      Or continue with
-      </p>
+        <p className="login-main-continue-p">
+          Or continue with
+        </p>
       </div>
       <div className="login-main-continue-img">
-      <MainIamge/>
-
+        <MainIamge />
       </div>
-      
-
     </div>
   )
 }
