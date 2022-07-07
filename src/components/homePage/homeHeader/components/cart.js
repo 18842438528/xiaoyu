@@ -5,9 +5,8 @@ export const Cart = () => {
     <div className="login-header-cart">
       <div className='home-header-cart-img'>
         <img src={CartImg} alt='' />
-        <NewPerformance/>
+        <NewPerformance />
       </div>
-     
     </div>
   )
 }

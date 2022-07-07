@@ -9,7 +9,6 @@ export const HomeHeaderComponent = () => {
       <Menu />
       <Search />
       <Cart />
-      
     </div>
   )
 }
