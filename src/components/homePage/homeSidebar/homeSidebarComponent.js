@@ -1,4 +1,5 @@
 import '../../../styles/homeStyle.scss'
+import { useState } from 'react'
 import { Navigation } from './components/navigation'
 import MenuIcon from '../../../assets/menuIcon.png'
 import Video from '../../../assets/video.png'
@@ -12,14 +13,18 @@ import Purchases from '../../../assets/purchases.png'
 import Payment from '../../../assets/payment.png'
 import { NavigationFooter } from './components/navigationFooter'
 import { NavigationPhoto } from './components/navigationPhoto'
-export const HomeSidebarComponent = () => {
+import { Link } from 'react-router-dom'
+export const HomeSidebarComponent = ({ onClick, onHandle }) => {
+
   return (
     <div className="home-sidebar">
       <p className='home-sidebar-p'>
         Browse
       </p>
-      <Navigation src={MenuIcon} item='Home' />
-      <Navigation src={Video} item='Live' />
+      <Navigation src={MenuIcon} item='Home' onClick={onHandle} />
+      {/* <Link to='/homepageindex/livepage'> */}
+      <Navigation src={Video} item='Live' onClick={onClick} />
+      {/* </Link> */}
       <Navigation src={Upcoming} item='Upcoming' />
       <Navigation src={Pupolar} item='Pupolar' />
       <p className='home-sidebar-p'>

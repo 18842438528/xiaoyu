@@ -1,10 +1,10 @@
 import SwitchLeft from '../../../../assets/switchLeft.png'
 import SwitchRight from '../../../../assets/switchRight.png'
-export const MainTypeBar = () => {
+export const MainTypeBar = ({livename}) => {
   return (
     <div className="main-live-bar">
       <div className="main-live">
-        Live
+        {livename}
       </div>
       <div className="main-live-view">
         View All

@@ -12,9 +12,8 @@ export const MainComponent = () => {
         <Title />
         <MainEmail />
         <Link to='/homepageindex'>
-        <MainBtn name="Login" />
+          <MainBtn name="Login" />
         </Link>
-        
         <MainContinue />
       </div>
     </div>

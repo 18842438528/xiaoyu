@@ -2,7 +2,6 @@ import Photo from '../../../../assets/photo.png'
 import Move from '../../../../assets/move.png'
 export const NavigationPhoto = () => {
   return (
-
     <div className='home-portrait'>
       <div className='home-portrait-photo'>
         <img src={Photo} alt='' />
