@@ -15,15 +15,15 @@ import { NavigationFooter } from './components/navigationFooter'
 import { NavigationPhoto } from './components/navigationPhoto'
 import { Link } from 'react-router-dom'
 export const HomeSidebarComponent = ({ onClick, onHandle }) => {
-
+  const [value, setValue] = useState('')
   return (
     <div className="home-sidebar">
       <p className='home-sidebar-p'>
         Browse
       </p>
-      <Navigation src={MenuIcon} item='Home' onClick={onHandle} />
+      <Navigation src={MenuIcon} item='Home' value={value} onClick={() => { onHandle(); setValue('Home') }} />
       {/* <Link to='/homepageindex/livepage'> */}
-      <Navigation src={Video} item='Live' onClick={onClick} />
+      <Navigation src={Video} item='Live' value={value} onClick={() => { onClick(); setValue('Live') }} />
       {/* </Link> */}
       <Navigation src={Upcoming} item='Upcoming' />
       <Navigation src={Pupolar} item='Pupolar' />

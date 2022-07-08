@@ -1,5 +1,7 @@
 import { MainTypeComponent } from "./mainTypeComponent"
+import { useState } from "react"
 export const MainType = () => {
+  
   return (
     <div className="home-main-type">
       <MainTypeComponent typeName='All Categories' />

@@ -4,13 +4,13 @@ export const MainEmail = () => {
   return (
     <div className="login-header-email">
       <div style={{ height: "55px" }}>
-        <MainInput hint='Email' placeholder='Enter Your Email' />
+        <MainInput hint='Email' placeholder='Enter Your Email' id='email' />
       </div>
       <div>
         <Link to='/passwordindex'>
           <p className="login-header-forgot">Forgot password?</p>
         </Link>
-        <MainInput hint='Password' placeholder='Enter Your Password' />
+        <MainInput hint='Password' placeholder='Enter Your Password' id='pwd' />
       </div>
     </div>
   )
