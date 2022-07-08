@@ -11,7 +11,7 @@ export const CreateMainComponent = () => {
   const handleChangeLogin = () => {
     console.log(1)
     const action = {
-      type: 'login',
+      type: 'create',
       data: { email: email, password: password }
     }
     store.dispatch(action)
